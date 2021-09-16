@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.userlist .table {
+  margin-top: 65px;
+  width: 75%;
+}
+.usercreate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 555px;
+  flex-direction: column;
+}
+
+.usercreate .form_group {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 755px;
+  align-self: center;
+  align-items: center;
+}
+.usercreate .form_group input {
+  width: 100%;
+  height: 25px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.usercreate .form_group label {
+  font-size: 24px;
+}
